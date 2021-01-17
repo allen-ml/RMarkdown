@@ -1,10 +1,5 @@
 ---
 title: "R Markdown File 1"
-output: 
-  html_document:
-    code_folding: hide
-    toc: TRUE
-    toc_float: TRUE
 ---
   
 ## Preparation  
