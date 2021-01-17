@@ -1,27 +1,3 @@
----
-title: "M264B - Problem Set 1 - Due 1/20/21"
-author: "205055864,########,########,#########"
-date: "1/14/2021"
-output: 
-  html_document:
-    code_folding: hide
-    toc: TRUE
-    toc_float: TRUE
----
-  
-## Instructions  
-This problem set is due by the start of class Wednesday, January 20 (1:00pm Section 1, 7:10pm Section 2).  
-  
-You  may work in groups of up to 4 people. Please put every team member's UCLA ID number in the header above, inside the quotes next to "author". Please do not include names in this document, to ensure blind grading.  
-  
-You will need to submit *TWO* files: this .Rmd file, and the knitted HTML file. Each group should submit only ONE version of each file (that is, only one group member should submit). To knit the file, first make sure all the code runs from scratch. That is, restart R so that you have a clear environment and only standard packages loaded, and run all the code in this document in order. Make sure there are no `install.packages()` functions included, as they will cause a failure to knit (and you shouldn't need any to complete this problem set anyways). Then click the "Knit" button, or "Knit to HTML" from the Knit dropdown menu. A new .html file with this same file name will be created in the same folder.   
-  
-Please do not exclude any code chunks from the knitted documents (i.e., do not use the `eval`, `include`, or `echo` options mentioned in week 1 appendices). We've hidden the code by default.  
-  
-Some questions just need code, some questions just need a written response, and some questions need both. If code is needed, there is already a code chunk. If a written response is needed, there is text that reads "enter your answer here".  
-  
-  
-  
   
 ## Preparation  
 As part of this assignment, you will construct a hedonic pricing model for diamonds, similar to how we constructed a hedonic pricing model in class for houses. Recall that upon running the model in class, we found b0 = 611896 and b1 = 531. This implies that if one house is 1 square foot larger than another, we expect the market to value the first house \$531 more. And we expect a house with a size of 0 square feet to be valued at \$611,896. (This latter estimate is well outside the range of the data, as we don't see any houses that are 0 square feet, so its substantive interpretation is suspect.)  
