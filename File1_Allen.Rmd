@@ -1,3 +1,11 @@
+---
+title: "R Markdown File 1"
+output: 
+  html_document:
+    code_folding: hide
+    toc: TRUE
+    toc_float: TRUE
+---
   
 ## Preparation  
 As part of this assignment, you will construct a hedonic pricing model for diamonds, similar to how we constructed a hedonic pricing model in class for houses. Recall that upon running the model in class, we found b0 = 611896 and b1 = 531. This implies that if one house is 1 square foot larger than another, we expect the market to value the first house \$531 more. And we expect a house with a size of 0 square feet to be valued at \$611,896. (This latter estimate is well outside the range of the data, as we don't see any houses that are 0 square feet, so its substantive interpretation is suspect.)  
