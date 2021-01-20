@@ -3,12 +3,8 @@ title: "R Problems"
 author: "Allen"
 date: "1/18/2021"
 output: 
-    #html_document:
     html_document:
-    keep_md: true
-    code_folding: hide
-    toc: TRUE
-    toc_float: TRUE
+        keep_md: true
 ---
   
 ## Instructions  
