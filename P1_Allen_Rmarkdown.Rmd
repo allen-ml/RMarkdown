@@ -14,9 +14,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
 ## Including Plots
